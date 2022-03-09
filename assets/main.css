@@ -1,0 +1,43 @@
+body {
+  background: url("../assets/img/board.jpg") no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+h1,
+footer {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(250, 248, 248, 0.5);
+}
+
+.back:hover {
+  color: #440d02;
+}
+
+td {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: pink;
+}
+
+td.green {
+  background-color: green;
+}
+
+table {
+  border-collapse: collapse;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+  width: 57%;
+}
